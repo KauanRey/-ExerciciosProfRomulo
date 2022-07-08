@@ -30,7 +30,7 @@ namespace ExerciciosProfRomulo.EscolhinhaTicTic
             double media;
 
             //Entrada de Dados
-            Console.WriteLine("Abençoado qual o seu nome:");
+            Console.WriteLine("Qual o seu nome completo:");
             nomeDoAluno = Console.ReadLine();
             Console.WriteLine("Digite três notas");
             nota1 = double.Parse(Console.ReadLine());
@@ -49,25 +49,6 @@ namespace ExerciciosProfRomulo.EscolhinhaTicTic
 
             Console.WriteLine($"O aluno {nomeDoAluno} obteve a média {media} e foi {resultado}");
 
-            /*
-            string[] alunos = { "João", "Maria", "José","Rômulo","Ramon","Bruno","William","Yedo","Jeferson" };
-            //Console.WriteLine(alunos[1]);
-            int cont=0;
-            foreach (var item in alunos)
-            {
-                int r = item.StartsWith("R") ? cont++ : 0;
-
-            }
-            Console.WriteLine($"Foram {cont} alunos que tem o nome iniciando com a letra R ");
-
-            foreach (var item in alunos)
-            {
-                if (item.StartsWith("R"))
-                {
-                    Console.WriteLine(item);
-                }
-                
-            }*/
             Console.ReadKey();
 
 
